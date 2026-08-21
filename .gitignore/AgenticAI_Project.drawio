@@ -1,0 +1,415 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="Iy5iYIShg0i9ngVKtWwU">
+    <mxGraphModel dx="940" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;fillColor=#FFF1E0;" value="" vertex="1">
+          <mxGeometry height="20" width="120" x="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(204, 0, 0);&quot;&gt;START&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="346" y="23" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379.67" y="41" as="sourcePoint" />
+            <mxPoint x="379.67" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="run_analysis(property_record)" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#A9C4EB;" value="" vertex="1">
+          <mxGeometry height="44" width="350" x="210" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(153, 0, 0);&quot;&gt;validate&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;REQUIRED_FIELDS on property PASS (file it, skip) if incomplete&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="201" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9F7;strokeColor=#FFB366;" value="" vertex="1">
+          <mxGeometry height="160" width="760" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="130" as="sourcePoint" />
+            <mxPoint x="380" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F2;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="120" width="151" x="50" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="130" as="sourcePoint" />
+            <mxPoint x="660" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="130" as="sourcePoint" />
+            <mxPoint x="120" y="172.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;Stage 1. parallel&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="80" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;color: rgb(153, 0, 0);&quot;&gt;location_analysis&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Location Agent&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: rgb(204, 102, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;LLM-score 0-10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847));&quot;&gt;-&amp;gt; location_results &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847));&quot;&gt;(location_score. tier)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190.5" y="224" as="sourcePoint" />
+            <mxPoint x="60.5" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F2;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="120" width="151" x="240" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F2;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="120" width="151" x="420" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF5F2;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="120" width="151" x="600" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="127.96000000000001" as="sourcePoint" />
+            <mxPoint x="320" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="127.96000000000001" as="sourcePoint" />
+            <mxPoint x="490" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="127.96000000000001" as="sourcePoint" />
+            <mxPoint x="660" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(153, 76, 0);&quot;&gt;price_analysis&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;PriceAgent&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: rgb(153, 76, 0);&quot;&gt;LLM-score 0-10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;→price_results&amp;nbsp;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;(pricing_score verdict)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="251" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(153, 76, 0);&quot;&gt;market_analysis&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;MarketTrendsAgent&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: rgb(204, 102, 0);&quot;&gt;LLM-score 0-10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;→market_results&amp;nbsp;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;(market score temperature)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="430" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span&gt;&lt;span style=&quot;color: light-dark(rgb(204, 102, 0), rgb(212, 125, 37)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(153, 76, 0);&quot;&gt;condition_analysis&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;PropertyConditionAgent&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: rgb(204, 102, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;LLM-score 0-10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;→&lt;span style=&quot;background-color: transparent;&quot;&gt;condition_results&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;(condition_score. tier)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="600" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380.5" y="220" as="sourcePoint" />
+            <mxPoint x="250.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560.5" y="220" as="sourcePoint" />
+            <mxPoint x="430.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-30" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="740.5" y="220" as="sourcePoint" />
+            <mxPoint x="610.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-33" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.532;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" target="yRNBbm80Xf3UgWxeklB4-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320.2" y="330" />
+            </Array>
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="320.19999999999993" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-34" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.145;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="490.2" y="330" />
+            </Array>
+            <mxPoint x="490" y="340" as="sourcePoint" />
+            <mxPoint x="490.19999999999993" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-35" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.145;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="660.2" y="330" />
+            </Array>
+            <mxPoint x="660" y="340" as="sourcePoint" />
+            <mxPoint x="660.1999999999999" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.532;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="119.86999999999998" y="333" />
+            </Array>
+            <mxPoint x="119.66999999999999" y="343" as="sourcePoint" />
+            <mxPoint x="119.66999999999999" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-37" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.532;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="490.2" y="333" />
+            </Array>
+            <mxPoint x="490" y="343" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-38" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.532;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="660.2" y="333" />
+            </Array>
+            <mxPoint x="660" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379.66999999999996" y="340" as="sourcePoint" />
+            <mxPoint x="379.66999999999996" y="382.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6F2;strokeColor=#CC6600;" value="" vertex="1">
+          <mxGeometry height="60" width="460" x="150" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;the price agent emits pricing score the short key is &quot;price&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="290" x="80" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;fan-in: add_edge(STAGE1_NODES - roi_analysis) waits for ALL four&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="379" x="391" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(102, 0, 0);&quot;&gt;roi_analysis. Stage 2&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="315" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;ROIAgent.analyze (property_record, location, price, market, condition)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="360" x="234" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;→ roi_results (roi_score risk score annual_roi monthly_cash_flow-cap_rate)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="431" x="194.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="110" width="570" x="110" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(153, 0, 0);&quot;&gt;◆ decision add_conditional_edges strongest band it FULLY qualifies for&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;color: rgba(0, 0, 0, 0.847); font-size: 9px; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;overall ≥ 8.0 roi ≥ 8.0×1.5 location ≥ 7.0 cash_flow &amp;gt; 500.0 risk ≤ 6.0-STRONG_BUY&lt;/div&gt;&lt;div style=&quot;color: rgba(0, 0, 0, 0.847); text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;else overall 2 7.0. roi ≥ 8.0 location ≥ 7.0-1 risk ≤ 6.0 --&amp;gt;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); caret-color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); background-color: transparent;&quot;&gt;BUY&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgba(0, 0, 0, 0.847); text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); caret-color: light-dark(rgba(0, 0, 0, 0.847), rgba(237, 237, 237, 0.847)); background-color: transparent;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;else overall ≥ 6.0. roi ≥ 8.0×0.75- CONSIDER (no risk veto on this band)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgba(0, 0, 0, 0.847); text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;else - PASS&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;div style=&quot;text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;font style=&quot;font-size: 8px; color: rgb(255, 51, 51);&quot;&gt;+ priority (PRIORITY map) decision_metrics&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;font style=&quot;font-size: 8px; color: rgb(255, 51, 51);&quot;&gt;+ risk level: HIGH ≥ 6.0 MODERATE ≥ 4.0. else LOW&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="570" x="120" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A9C4EB;" value="" vertex="1">
+          <mxGeometry height="70" width="460" x="155" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: rgb(153, 0, 0);&quot;&gt;&lt;b&gt;coordinator&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;weighted 0.25-location + 0.20-price + 0.20-market + 0.15-condition + 0.20.roi&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&amp;nbsp;risk_score = the ROI agent&#39;s INDEPENDENT read - NOT 10 overall_score&lt;/div&gt;&lt;div style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-decoration-thickness: auto; text-decoration-style: solid;&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;→ overall_score risk_score coordination_summary&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="550" x="105" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379.67" y="437.96" as="sourcePoint" />
+            <mxPoint x="379.67" y="479.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-56" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379.67" y="550" as="sourcePoint" />
+            <mxPoint x="379.67" y="584.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-57" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="710" as="sourcePoint" />
+            <mxPoint x="370" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-59" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="709.67" as="sourcePoint" />
+            <mxPoint x="370" y="709.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;route_after_decision analyst_review&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="385" y="692" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-63" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="710" as="sourcePoint" />
+            <mxPoint x="160" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;PASS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9933;fillColor=#FFF3EF;" value="" vertex="1">
+          <mxGeometry height="40" width="160" x="350" y="726" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(153, 0, 0);&quot;&gt;analyst_review&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="135.5" x="362.25" y="727" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;interrupt() pause on checkpointer&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="186" x="337" y="732" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-69" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="yRNBbm80Xf3UgWxeklB4-67" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="739" as="sourcePoint" />
+            <mxPoint x="523" y="741" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-70" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#EAEEFF;" value="" vertex="1">
+          <mxGeometry height="60" width="130" x="625.5" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;durable checkpoint&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110.5" x="515" y="722" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(153, 0, 0);&quot;&gt;SqliteSaver&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;checkpoints.db&lt;/span&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="625.5" y="722" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9933;fillColor=#FFEDE2;" value="" vertex="1">
+          <mxGeometry height="130" width="392.12" x="246.88" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(204, 102, 0);&quot;&gt;HUMAN-IN-THE-LOOP interrupt() Command(resume=(&quot;action&quot;: ...))&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="379" x="260" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF8000;" value="" vertex="1">
+          <mxGeometry height="40" width="290" x="304.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(153, 0, 0);&quot;&gt;&lt;b&gt;Analyst decision&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;approve/ override human_decision&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="315" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;approve --&amp;gt;&amp;nbsp; &amp;lt;DECISION&amp;gt;_confirmed override --&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;analyst_overridden&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="379" x="260" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-79" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="484.67" y="712" as="sourcePoint" />
+            <mxPoint x="484.67" y="729" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-81" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.606;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="yRNBbm80Xf3UgWxeklB4-74" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="484.66999999999996" y="768" as="sourcePoint" />
+            <mxPoint x="480" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCE5FF;" value="" vertex="1">
+          <mxGeometry height="40" width="320.5" x="140" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-83" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.062;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="yRNBbm80Xf3UgWxeklB4-82" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="720" />
+            </Array>
+            <mxPoint x="159.67000000000002" y="740" as="sourcePoint" />
+            <mxPoint x="160" y="762" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-84" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.606;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="920" as="sourcePoint" />
+            <mxPoint x="330.33000000000004" y="942" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;resume --&amp;gt; report&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110.5" x="325" y="913" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(204, 0, 0);&quot;&gt;report&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;fold &amp;nbsp;human_decision —&amp;gt; final decision priority risk_level . workflow_complete&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="431" x="92" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-88" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#EAEEFF;" value="" vertex="1">
+          <mxGeometry height="60" width="130" x="639" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-90" edge="1" parent="1" source="yRNBbm80Xf3UgWxeklB4-91" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF9933;" target="yRNBbm80Xf3UgWxeklB4-88" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460.5" y="963" as="sourcePoint" />
+            <mxPoint x="510.5" y="913" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-92" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF9933;" target="yRNBbm80Xf3UgWxeklB4-91" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460.5" y="963" as="sourcePoint" />
+            <mxPoint x="639" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;save_analysis&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start; color: rgb(204, 0, 0);&quot;&gt;Investment store&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;investments.db&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="640" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-94" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FF9999;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="635" y="960" as="sourcePoint" />
+            <mxPoint x="640.5" y="959.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F7FF;" value="" vertex="1">
+          <mxGeometry height="30" width="78.75" x="246.25" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="END" vertex="1">
+          <mxGeometry height="30" width="60" x="255" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-98" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" target="yRNBbm80Xf3UgWxeklB4-96" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="981" as="sourcePoint" />
+            <mxPoint x="280.33000000000004" y="1003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;report.decision priority risk level. workflow_complete = True&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="318" x="290.5" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF6F2;strokeColor=#CC6600;arcSize=50;" value="" vertex="1">
+          <mxGeometry height="10" width="20" x="60" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-101" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(204, 102, 0);&quot;&gt;Legend&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCE5FF;" value="" vertex="1">
+          <mxGeometry height="10" width="20" x="200" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;pure-LLM agent node&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="60" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;deterministic node&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="194.5" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-106" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;pure-LLM agent node&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="335" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-108" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9933;fillColor=#FFEDE2;" value="" vertex="1">
+          <mxGeometry height="10" width="20" x="325" y="1132" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F7FF;" value="" vertex="1">
+          <mxGeometry height="10" width="20" x="466.25" y="1132" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;END&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="435.5" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-111" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#FF9933;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="539.5" y="1134.67" as="sourcePoint" />
+            <mxPoint x="570" y="1134.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-112" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FF9999;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="566" y="1134.33" as="sourcePoint" />
+            <mxPoint x="571.5" y="1134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-113" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;caret-color: rgba(0, 0, 0, 0.847); color: rgba(0, 0, 0, 0.847); font-family: -apple-system-font; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;SQLite checkpointer/investment store I/O&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="244.5" x="540" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="yRNBbm80Xf3UgWxeklB4-114" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Real Estate Investment Analyzer -- LangGraph&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;StateGraph . validate --&amp;gt; Stage 1 (4 parallel) --&amp;gt; roi_analysis (Stage 2, consumes all four) --&amp;gt; 4-band ladder + risk veto . interrupt()analyst HITL . SqliteSaver&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="790" x="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
